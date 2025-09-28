@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home.com</title>
+    <link rel="icon" href="1336494.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>
+        Welcome to Nu's Website
+    </h1>
+    <div>
+        <img src="e81e47dd-368c-4449-97ff-f214ad210aba.png" alt="Logo">
+    <div>
+        <button type="button">
+            <span>
+                About Me
+            </span>
+            <script>
+                document.querySelector('button').onclick = function() {
+                    location.href = 'About.html';
+                };
+            </script>
+        </button>
+        <button id="first">
+            <span>
+                Website For Exam
+            </span>
+            <script>
+                document.querySelectorAll('button')[1].onclick = function() {
+                    location.href = 'WebsiteForExam.html';
+                };
+            </script>
+        </button>
+        <button id="second">
+            <span>
+                Join Group Telegrams For More INFO
+            </span>
+            <script>
+                document.querySelectorAll('button')[2].onclick = function() {
+                    location.href = 'JoinTelegram.html';
+                };
+            </script>
+        </button>
+    </div>
+        <footer>
+        <p>
+            © 2025 NU'S WEBSITE FOR EXAM
+        </p>
+    </footer>
+</body>
+</html>

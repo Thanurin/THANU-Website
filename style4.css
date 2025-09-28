@@ -1,0 +1,67 @@
+body {
+    background-image: url(pexels-padrinan-19670.jpg);
+    background-size: cover;
+    color: black;
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    line-height: 1.6;
+}
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+footer {
+    font-size: 14px;
+    color: white;
+    margin-top: 20px;
+    border-top: 1px solid gray;
+    padding-top: 10px;
+    font-family: 'Arial', sans-serif;
+    font-style: italic;
+    text-align: center;
+}
+    h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-family: 'Georgia', serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+#first {
+    background-image: url(pexels-padrinan-19670.jpg);
+    color: blue;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    margin-bottom: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+}
+#first:hover {
+    background-image: url(pexels-pixabay-268533.jpg);
+}
+ button{
+    background-color: blue;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    margin-bottom: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+}
+button:hover {
+    background-color: red;
+}
